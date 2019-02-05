@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rbcosseno.setOnClickListener(this);
         rbtangente.setOnClickListener(this);
         btnCalcular.setOnClickListener(this);
+
+        Log.i( "SENAI",  "Esse é o meu primeiro");
 
     }
 
